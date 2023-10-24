@@ -6,28 +6,28 @@ sites:
   - name: IBM Z Advocacy Hub
     url: https://community.ibm.com/zsystems/advocacy/
     icon: https://www.ibm.com/favicon.ico
-  - name: Validated Open Source Software
-    url: https://community.ibm.com/zsystems/oss/
-    icon: https://www.ibm.com/favicon.ico
-  - name: API - core - block id 2
-    url: $CORE_API_URL
-    headers:
-      - "accept: application/json"
-      - "x-api-key: $CORE_ADMIN_API_KEY"
-  - name: API - advocacy - opportunity id 1
-    url: $ADVOCACY_API_URL
-    headers:
-      - "accept: application/json"
-      - "x-api-key: $ADVOCACY_ADMIN_API_KEY"
-  - name: API - agenda - event id 1
-    url: $AGENDA_API_URL
-    headers:
-      - "accept: application/json"
-      - "x-api-key: $AGENDA_ADMIN_API_KEY"
-  - name: API - agenda - event id 1
-    url: $OSS_API_URL
-    headers:
-      - "accept: application/json"
+  # - name: Validated Open Source Software
+  #   url: https://community.ibm.com/zsystems/oss/
+  #   icon: https://www.ibm.com/favicon.ico
+  # - name: API - core - block id 2
+  #   url: $CORE_API_URL
+  #   headers:
+  #     - "accept: application/json"
+  #     - "x-api-key: $CORE_ADMIN_API_KEY"
+  # - name: API - advocacy - opportunity id 1
+  #   url: $ADVOCACY_API_URL
+  #   headers:
+  #     - "accept: application/json"
+  #     - "x-api-key: $ADVOCACY_ADMIN_API_KEY"
+  # - name: API - agenda - event id 1
+  #   url: $AGENDA_API_URL
+  #   headers:
+  #     - "accept: application/json"
+  #     - "x-api-key: $AGENDA_ADMIN_API_KEY"
+  # - name: API - agenda - event id 1
+  #   url: $OSS_API_URL
+  #   headers:
+  #     - "accept: application/json"
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
