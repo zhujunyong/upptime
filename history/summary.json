@@ -41,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/community.ibm.com.ico",
     "slug": "api-core-block-id-2",
     "status": "up",
-    "uptime": "58.58%",
-    "uptimeDay": "58.58%",
-    "uptimeWeek": "58.58%",
-    "uptimeMonth": "58.58%",
-    "uptimeYear": "58.58%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 425,
     "timeDay": 425,
     "timeWeek": 425,
     "timeMonth": 425,
     "timeYear": 425,
-    "dailyMinutesDown": {
-      "2023-10-24": 9
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "API - advocacy - opportunity id 1",
