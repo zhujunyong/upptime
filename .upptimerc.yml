@@ -9,6 +9,21 @@ sites:
   - name: Validated Open Source Software
     url: https://community.ibm.com/zsystems/oss/
     icon: https://www.ibm.com/favicon.ico
+  - name: core - block id 2
+    url: https://community.ibm.com/zsystems/api/core/blocks/2
+    headers:
+      - "accept: application/json"
+      - "x-api-key: $CORE_ADMIN_API_KEY"
+  - name: advocacy - opportunity id 1
+    url: https://community.ibm.com/zsystems/api/advocacy/opportunities/1
+    headers:
+      - "accept: application/json"
+      - "x-api-key: $ADVOCACY_ADMIN_API_KEY"
+  - name: agenda - event id 1
+    url: https://community.ibm.com/zsystems/api/agenda/events/1
+    headers:
+      - "accept: application/json"
+      - "x-api-key: $AGENDA_ADMIN_API_KEY"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
