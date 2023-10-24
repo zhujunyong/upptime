@@ -1,7 +1,7 @@
-url: https://community.ibm.com/zsystems/api/agenda/events/1
+url: https://community.ibm.com/zsystems/api/oss/json
 status: up
 code: 200
-responseTime: 715
-lastUpdated: 2023-10-24T03:21:11.686Z
+responseTime: 339
+lastUpdated: 2023-10-24T03:21:12.357Z
 startTime: 2023-10-24T03:00:20.771Z
 generator: Upptime <https://github.com/upptime/upptime>
