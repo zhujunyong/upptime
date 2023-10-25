@@ -26,7 +26,7 @@ sites:
     method: POST
     headers:
       - "accept: application/json"
-      - "x-api-key: $ADVOCACY_ADMIN_API_KEY"
+      - "x-api-key: $ADVOCACY_PUBLIC_API_KEY"
     body: '{}'
   - name: API - agenda - events/1
     url: https://community.ibm.com/zsystems/api/agenda/events/1
