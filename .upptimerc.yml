@@ -25,9 +25,10 @@ sites:
     url: https://community.ibm.com/zsystems/api/advocacy/opportunities/findAll
     method: POST
     headers:
+      - "Content-Type: application/json"
       - "accept: application/json"
       - "x-api-key: $ADVOCACY_PUBLIC_API_KEY"
-    # body: '{}'
+    body: '{}'
   - name: API - agenda - events/1
     url: https://community.ibm.com/zsystems/api/agenda/events/1
     headers:
