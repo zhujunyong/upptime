@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 600,
-    "timeDay": 480,
-    "timeWeek": 600,
-    "timeMonth": 600,
-    "timeYear": 600,
+    "time": 602,
+    "timeDay": 637,
+    "timeWeek": 602,
+    "timeMonth": 602,
+    "timeYear": 602,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 286,
-    "timeDay": 261,
-    "timeWeek": 286,
-    "timeMonth": 286,
-    "timeYear": 286,
+    "time": 307,
+    "timeDay": 610,
+    "timeWeek": 307,
+    "timeMonth": 307,
+    "timeYear": 307,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 241,
-    "timeDay": 241,
-    "timeWeek": 241,
-    "timeMonth": 241,
-    "timeYear": 241,
+    "time": 246,
+    "timeDay": 278,
+    "timeWeek": 246,
+    "timeMonth": 246,
+    "timeYear": 246,
     "dailyMinutesDown": {}
   },
   {
@@ -82,11 +82,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 330,
-    "timeDay": 330,
-    "timeWeek": 330,
-    "timeMonth": 330,
-    "timeYear": 330,
+    "time": 346,
+    "timeDay": 442,
+    "timeWeek": 346,
+    "timeMonth": 346,
+    "timeYear": 346,
     "dailyMinutesDown": {}
   },
   {
@@ -94,35 +94,39 @@
     "url": "https://community.ibm.com/zsystems/api/agenda/events/1",
     "icon": "https://icons.duckduckgo.com/ip3/community.ibm.com.ico",
     "slug": "api-agenda-events-1",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 797,
-    "timeDay": 797,
-    "timeWeek": 797,
-    "timeMonth": 797,
-    "timeYear": 797,
-    "dailyMinutesDown": {}
+    "time": 762,
+    "timeDay": 659,
+    "timeWeek": 762,
+    "timeMonth": 762,
+    "timeYear": 762,
+    "dailyMinutesDown": {
+      "2023-10-27": 0
+    }
   },
   {
     "name": "API - oss json",
     "url": "https://community.ibm.com/zsystems/api/oss/json",
     "icon": "https://icons.duckduckgo.com/ip3/community.ibm.com.ico",
     "slug": "api-oss-json",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 418,
-    "timeDay": 418,
-    "timeWeek": 418,
-    "timeMonth": 418,
-    "timeYear": 418,
-    "dailyMinutesDown": {}
+    "time": 422,
+    "timeDay": 435,
+    "timeWeek": 422,
+    "timeMonth": 422,
+    "timeYear": 422,
+    "dailyMinutesDown": {
+      "2023-10-27": 0
+    }
   }
 ]
