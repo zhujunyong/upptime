@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/core/blocks/6
-status: down
-code: 404
-responseTime: 331
-lastUpdated: 2023-10-27T01:39:00.676Z
+status: up
+code: 200
+responseTime: 602
+lastUpdated: 2023-10-27T02:39:13.489Z
 startTime: 2023-10-25T03:51:30.150Z
 generator: Upptime <https://github.com/upptime/upptime>
