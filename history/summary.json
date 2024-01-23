@@ -41,19 +41,17 @@
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "api-core-contents-find-all",
     "status": "up",
-    "uptime": "5.25%",
-    "uptimeDay": "5.25%",
-    "uptimeWeek": "5.25%",
-    "uptimeMonth": "5.25%",
-    "uptimeYear": "5.25%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 229,
     "timeDay": 229,
     "timeWeek": 229,
     "timeMonth": 229,
     "timeYear": 229,
-    "dailyMinutesDown": {
-      "2024-01-23": 4
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "api/core/events/findAll",
@@ -61,19 +59,17 @@
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "api-core-events-find-all",
     "status": "up",
-    "uptime": "4.41%",
-    "uptimeDay": "4.41%",
-    "uptimeWeek": "4.41%",
-    "uptimeMonth": "4.41%",
-    "uptimeYear": "4.41%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 228,
     "timeDay": 228,
     "timeWeek": 228,
     "timeMonth": 228,
     "timeYear": 228,
-    "dailyMinutesDown": {
-      "2024-01-23": 4
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "T90 (WP) Home page",
