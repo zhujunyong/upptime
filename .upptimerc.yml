@@ -19,7 +19,7 @@ sites:
       - "accept: application/json"
       - "x-api-key: $CORE_PUBLIC_API_KEY"
     body: '{"limit": 1}'
-    __dangerous__body_down_if_text_missing: '"rows": ['
+    __dangerous__body_down_if_text_missing: '"rows":['
   - name: api/core/events/findAll
     url: https://community.ibm.com/zsystems/api/core/events/findAll
     icon: https://www.ibm.com/favicon.ico
@@ -29,7 +29,7 @@ sites:
       - "accept: application/json"
       - "x-api-key: $CORE_PUBLIC_API_KEY"
     body: '{"limit": 1}'
-    __dangerous__body_down_if_text_missing: '"rows": ['
+    __dangerous__body_down_if_text_missing: '"rows":['
   - name: T90 (WP) Home page
     url: https://www.ibm.com/community/z-and-cloud/
     icon: https://www.ibm.com/favicon.ico
