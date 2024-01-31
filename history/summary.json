@@ -40,19 +40,19 @@
     "url": "https://community.ibm.com/zsystems/api/core/contents/findAll",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "api-core-contents-find-all",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 288,
-    "timeDay": 424,
-    "timeWeek": 313,
-    "timeMonth": 288,
-    "timeYear": 288,
+    "status": "up",
+    "uptime": "99.91%",
+    "uptimeDay": "99.21%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
+    "time": 291,
+    "timeDay": 390,
+    "timeWeek": 314,
+    "timeMonth": 291,
+    "timeYear": 291,
     "dailyMinutesDown": {
-      "2024-01-31": 0
+      "2024-01-31": 11
     }
   },
   {
