@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/core/events/findAll
-status: down
-code: 500
-responseTime: 3132
-lastUpdated: 2024-02-28T07:43:04.066Z
+status: up
+code: 200
+responseTime: 534
+lastUpdated: 2024-02-28T07:54:09.814Z
 startTime: 2024-01-23T07:24:45.476Z
 generator: Upptime <https://github.com/upptime/upptime>
