@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/core/forms/1
-status: down
-code: 502
-responseTime: 1406
-lastUpdated: 2024-07-02T15:49:41.191Z
+status: up
+code: 200
+responseTime: 231
+lastUpdated: 2024-07-02T16:08:36.471Z
 startTime: 2023-10-25T03:51:31.042Z
 generator: Upptime <https://github.com/upptime/upptime>
