@@ -1,7 +1,7 @@
 url: https://www.ibm.com/community/z/advocacy/
-status: up
-code: 200
-responseTime: 4935
-lastUpdated: 2024-08-07T23:06:58.925Z
+status: down
+code: 502
+responseTime: 11020
+lastUpdated: 2024-08-08T05:30:35.290Z
 startTime: 2024-01-23T07:24:41.157Z
 generator: Upptime <https://github.com/upptime/upptime>
