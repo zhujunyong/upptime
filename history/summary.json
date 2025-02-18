@@ -4,11 +4,11 @@
     "url": "https://www.ibm.com/community/z/advocacy/",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "advocacy-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.78%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 1144,
     "timeDay": 494,
@@ -16,6 +16,7 @@
     "timeMonth": 663,
     "timeYear": 1167,
     "dailyMinutesDown": {
+      "2025-02-18": 3,
       "2024-11-18": 17
     }
   },
