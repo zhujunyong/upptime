@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/oss/json
-status: down
-code: 504
-responseTime: 3511
-lastUpdated: 2025-04-28T03:47:06.076Z
+status: up
+code: 200
+responseTime: 698
+lastUpdated: 2025-04-28T04:50:42.239Z
 startTime: 2023-10-25T03:51:36.442Z
 generator: Upptime <https://github.com/upptime/upptime>
