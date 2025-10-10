@@ -1,7 +1,7 @@
 url: https://community.ibm.com/zsystems/api/core/contents/findAll
 status: down
-code: 502
-responseTime: 10073
-lastUpdated: 2025-10-10T07:17:57.766Z
+code: 404
+responseTime: 214
+lastUpdated: 2025-10-10T23:08:11.542Z
 startTime: 2024-01-23T07:24:42.781Z
 generator: Upptime <https://github.com/upptime/upptime>
