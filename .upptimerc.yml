@@ -7,79 +7,62 @@ sites:
     url: https://www.ibm.com/community/z/advocacy/
     icon: https://www.ibm.com/favicon.ico
   - name: Fans of Z (HL) Group page
-    url: https://community.ibm.com/community/user/ibmz-and-linuxone/groups/public?CommunityKey=b8b88f20-24c8-49f0-9021-4a8c6247a067
+    url: https://community.ibm.com/community/user/groupz?CommunityKey=b8b88f20-24c8-49f0-9021-4a8c6247a067
     icon: https://www.ibm.com/favicon.ico
-    __dangerous__body_down_if_text_missing: "cratos-lead-space-loaded"
-  - name: api/core/contents/findAll
-    url: https://community.ibm.com/zsystems/api/core/contents/findAll
+    __dangerous__body_down_if_text_missing: "Latest blogs"
+  - name: Neighborhood Home page
+    url: https://community.ibm.com/zsystems/neighborhood/home/
     icon: https://www.ibm.com/favicon.ico
-    method: POST
-    headers: 
-      - "Content-Type: application/json"
-      - "accept: application/json"
-      - "x-api-key: $CORE_PUBLIC_API_KEY"
-    body: '{"limit": 1}'
-    __dangerous__body_down_if_text_missing: '"rows":['
-  - name: api/core/events/findAll
-    url: https://community.ibm.com/zsystems/api/core/events/findAll
-    icon: https://www.ibm.com/favicon.ico
-    method: POST
-    headers: 
-      - "Content-Type: application/json"
-      - "accept: application/json"
-      - "x-api-key: $CORE_PUBLIC_API_KEY"
-    body: '{"limit": 1}'
-    __dangerous__body_down_if_text_missing: '"rows":['
-  - name: T90 (WP) Home page
-    url: https://www.ibm.com/community/z-and-cloud/
-    icon: https://www.ibm.com/favicon.ico
-    __dangerous__body_down_if_text_missing: 'Contact an expert'
-  - name: T90 (WP) Japanese home page
-    url: https://www.ibm.com/community/z-and-cloud/ja/
-    icon: https://www.ibm.com/favicon.ico
-    # __dangerous__body_down_if_text_missing: 'Contact an expert'
-    __dangerous__body_down_if_text_missing: 'IBMエキスパートにコンタクト'
-  - name: Z Community (WP) Home page
-    url: https://community.ibm.com/zsystems/home/
-    icon: https://www.ibm.com/favicon.ico
-    __dangerous__body_down_if_text_missing: 'cratos-lead-space'
+    __dangerous__body_down_if_text_missing: "beamz-lead-space"
   - name: IBM Z Advocacy Hub
     url: https://community.ibm.com/zsystems/advocacy/
     icon: https://www.ibm.com/favicon.ico
   - name: Validated Open Source Software
     url: https://community.ibm.com/zsystems/oss/
     icon: https://www.ibm.com/favicon.ico
-  - name: API - core - blocks/6
-    url: https://community.ibm.com/zsystems/api/core/blocks/6
-    headers:
-      - "Content-Type: application/json"
-      - "accept: application/json"
-      - "x-api-key: $CORE_PUBLIC_API_KEY"
-  - name: API - core - forms/1
-    url: https://community.ibm.com/zsystems/api/core/forms/1
-    headers:
-      - "Content-Type: application/json"
-      - "accept: application/json"
-      - "x-api-key: $CORE_PUBLIC_API_KEY"
-  - name: API - advocacy - opportunities/findAll
-    url: https://community.ibm.com/zsystems/api/advocacy/opportunities/findAll
+  - name: ZISVCAT Home page
+    url: https://www.ibm.com/products/z/resources/independent-software-vendor/catalog/
+    icon: https://www.ibm.com/favicon.ico
+    __dangerous__body_down_if_text_missing: "beamz-lead-space"
+  # API
+  - name: API - beamz-core - contents/findAll
+    url: https://community.ibm.com/zsystems/api/beamz-core/contents/findAll
+    icon: https://www.ibm.com/favicon.ico
     method: POST
     headers:
       - "Content-Type: application/json"
       - "accept: application/json"
-      - "x-api-key: $ADVOCACY_PUBLIC_API_KEY"
-    body: '{}'
-  - name: API - agenda - events/1
-    url: https://community.ibm.com/zsystems/api/agenda/events/1
+      - "x-api-key: $BEAMZ_CORE_PUBLIC_API_KEY"
+    body: '{"limit": 1}'
+    __dangerous__body_down_if_text_missing: '"rows":['
+  - name: API - beamz-agenda - events/findAll
+    url: https://community.ibm.com/zsystems/api/beamz-agenda/events/findAll
+    method: POST
     headers:
       - "Content-Type: application/json"
       - "accept: application/json"
-      - "x-api-key: $AGENDA_PUBLIC_API_KEY"
-  - name: API - oss json
-    url: https://community.ibm.com/zsystems/api/oss/json
+      - "x-api-key: $BEAMZ_AGENDA_PUBLIC_API_KEY"
+    body: '{"limit": 1}'
+    __dangerous__body_down_if_text_missing: '"rows":['
+  - name: API - beamz-advocacy - job-types/findAll
+    url: https://community.ibm.com/zsystems/api/beamz-advocacy/job-types/findAll
+    method: POST
     headers:
       - "Content-Type: application/json"
       - "accept: application/json"
+      - "x-api-key: $BEAMZ_ADVOCACY_PUBLIC_API_KEY"
+    body: '{"limit": 1}'
+    __dangerous__body_down_if_text_missing: '"rows":['
+  - name: API - zisvcat-core - categories/findAll
+    url: https://community.ibm.com/zsystems/api/zisvcat-core/categories/findAll
+    icon: https://www.ibm.com/favicon.ico
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+      - "accept: application/json"
+      - "x-api-key: $ZISVCAT_CORE_PUBLIC_API_KEY"
+    body: '{"limit": 1}'
+    __dangerous__body_down_if_text_missing: '"rows":['
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -94,6 +77,5 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
