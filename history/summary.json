@@ -27,17 +27,17 @@
     "url": "https://community.ibm.com/community/user/groupz?CommunityKey=b8b88f20-24c8-49f0-9021-4a8c6247a067",
     "icon": "https://www.ibm.com/favicon.ico",
     "slug": "fans-of-z-hl-group-page",
-    "status": "down",
-    "uptime": "55.06%",
-    "uptimeDay": "89.64%",
-    "uptimeWeek": "98.52%",
-    "uptimeMonth": "99.66%",
+    "status": "up",
+    "uptime": "55.05%",
+    "uptimeDay": "65.12%",
+    "uptimeWeek": "95.02%",
+    "uptimeMonth": "98.85%",
     "uptimeYear": "25.46%",
-    "time": 654,
-    "timeDay": 616,
-    "timeWeek": 673,
-    "timeMonth": 530,
-    "timeYear": 664,
+    "time": 655,
+    "timeDay": 572,
+    "timeWeek": 652,
+    "timeMonth": 529,
+    "timeYear": 663,
     "dailyMinutesDown": {
       "2026-08-20": 189,
       "2026-08-19": 1440,
@@ -312,7 +312,7 @@
       "2025-11-23": 1440,
       "2025-11-22": 1440,
       "2026-08-22": 176,
-      "2026-11-21": 149
+      "2026-11-21": 502
     }
   },
   {
